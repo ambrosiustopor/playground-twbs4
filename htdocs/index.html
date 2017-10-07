@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<title>Playground TWBS4</title>
+
+	<link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="styles/index.css">
+
+</head>
+
+<body>
+
+	<div id="app" class="container mt-4">
+
+		<ui-button-edit
+
+			:button-class="buttonClass"
+			:button-text="buttonText"
+			:button-outline="buttonOutline"
+			:button-size="buttonSize"
+			:button-disabled="buttonDisabled"
+
+			@change="changeButtonEdit"
+
+		></ui-button-edit>
+
+		<hr>
+
+		<div class="live-view">
+
+			<pg-button
+
+				:twbs-class="buttonClass"
+				:twbs-outline="buttonOutline"
+				:twbs-size="buttonSize"
+				:btn-disabled="buttonDisabled"
+
+			>{{ buttonText }}</pg-button>
+
+		</div>
+
+		<hr>
+
+		<ui-button-source
+
+			:button-class="buttonClass"
+			:button-text="buttonText"
+			:button-outline="buttonOutline"
+			:button-size="buttonSize"
+			:button-disabled="buttonDisabled"
+
+		></ui-button-source>
+
+	</div>
+
+	<script src="../bower_components/vue/dist/vue.min.js"></script>
+
+	<script src="scripts/components/pg-button.js"></script>
+
+	<script src="scripts/components/ui-button-edit.js"></script>
+	<script src="scripts/components/ui-button-source.js"></script>
+
+	<script src="scripts/app.js"></script>
+
+</body>
+
+</html>

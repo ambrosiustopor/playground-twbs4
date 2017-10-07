@@ -1,0 +1,46 @@
+.label {
+	/*display: block;*/
+}
+
+.form-section {
+
+	border: 1px solid #CCC;
+
+}
+
+.form-control {
+
+	margin-bottom: 1em;
+
+}
+
+.label--for-select {
+
+	display: block;
+
+}
+
+input[type="text"], input[type="search"] {
+
+	border: 1px solid #999;
+	padding: 4px 8px;
+	font-size: 0.85em;
+
+	width: 100%;
+
+}
+
+/*
+input:invalid {
+
+	border-color: red;
+
+}
+*/
+
+input[type="search"] {
+
+	border-radius: 2em;
+	padding: 6px 10px;
+
+}

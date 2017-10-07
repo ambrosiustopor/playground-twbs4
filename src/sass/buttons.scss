@@ -1,0 +1,53 @@
+.form-buttons {
+
+	/* @todo: collapsing margins */
+	margin-top: 1em;
+
+}
+
+.button-primary, .button-warning, .button-delete {
+
+	border: 0 none;
+	border-radius: 2px;
+	color: white;
+	font-size: 0.85em;
+	padding: 6px;
+
+	min-width: 6em;
+
+	cursor: pointer;
+
+}
+
+.button-primary {
+
+	background-color: #69c;
+
+}
+
+.button-warning {
+
+	background-color: orange;
+
+}
+
+.button-delete {
+
+	background-color: red;
+	float: right;
+
+}
+
+.button-list-edit {
+
+	border: 0 none;
+	border-radius: 6px;
+	color: white;
+	font-size: 0.75em;
+	padding: 4px 6px;
+
+	cursor: pointer;
+
+	background-color: yellowgreen;
+
+}

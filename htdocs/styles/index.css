@@ -1,0 +1,40 @@
+/*
+@import 'navigation';
+@import 'header';
+@import 'form';
+@import 'buttons';
+*/
+.live-view {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 80px;
+  justify-content: center;
+  background-color: #ddd; }
+
+* {
+  font-family: "Arial", sans-serif;
+  box-sizing: border-box; }
+
+html {
+  margin: 0; }
+
+body {
+  margin: 0;
+  background-color: white;
+  font: 100% Helvetica, sans-serif;
+  color: #333; }
+
+main {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 260px;
+  right: 0;
+  overflow: auto; }
+
+section {
+  padding: 16px; }
+
+h1, h2, h3, h4 {
+  margin: 0 0 1em; }
