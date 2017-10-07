@@ -2,7 +2,19 @@
 
 Playground for Twitter Bootstrap 4 components, using Vue.js.
 
-![Alt Text](screenshot.png "Screenshot of playground")
+![Screenshot of playground](screenshot.png)
+
+
+## Getting Started
+
+Install dependencies:
+
+```sh
+bower install
+```
+
+Open `htdocs/index.html` in web browser.
+
 
 ## License
 
